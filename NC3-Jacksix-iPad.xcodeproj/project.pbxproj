@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9D5E8792A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8782A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift */; };
+		D9D5E87B2A68FA0300A6C9EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */; };
+		D9D5E87D2A68FA0400A6C9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D5E87C2A68FA0400A6C9EB /* Assets.xcassets */; };
+		D9D5E8802A68FA0400A6C9EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D5E87F2A68FA0400A6C9EB /* Preview Assets.xcassets */; };
+		D9D5E88A2A68FA0400A6C9EB /* NC3_Jacksix_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8892A68FA0400A6C9EB /* NC3_Jacksix_iPadTests.swift */; };
+		D9D5E8942A68FA0400A6C9EB /* NC3_Jacksix_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8932A68FA0400A6C9EB /* NC3_Jacksix_iPadUITests.swift */; };
+		D9D5E8962A68FA0400A6C9EB /* NC3_Jacksix_iPadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8952A68FA0400A6C9EB /* NC3_Jacksix_iPadUITestsLaunchTests.swift */; };
+		D9D5E8A32A68FA1C00A6C9EB /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8A22A68FA1C00A6C9EB /* SelectionView.swift */; };
+		D9D5E8A62A6907A700A6C9EB /* DurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8A52A6907A700A6C9EB /* DurationView.swift */; };
+		D9D5E8A82A694A7900A6C9EB /* PageNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8A72A694A7900A6C9EB /* PageNavigator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9D5E8862A68FA0400A6C9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D5E86D2A68FA0300A6C9EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D5E8742A68FA0300A6C9EB;
+			remoteInfo = "NC3-Jacksix-iPad";
+		};
+		D9D5E8902A68FA0400A6C9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D5E86D2A68FA0300A6C9EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D5E8742A68FA0300A6C9EB;
+			remoteInfo = "NC3-Jacksix-iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9D5E8752A68FA0300A6C9EB /* NC3-Jacksix-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC3-Jacksix-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D5E8782A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_Jacksix_iPadApp.swift; sourceTree = "<group>"; };
+		D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9D5E87C2A68FA0400A6C9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D5E87F2A68FA0400A6C9EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9D5E8852A68FA0400A6C9EB /* NC3-Jacksix-iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NC3-Jacksix-iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D5E8892A68FA0400A6C9EB /* NC3_Jacksix_iPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_Jacksix_iPadTests.swift; sourceTree = "<group>"; };
+		D9D5E88F2A68FA0400A6C9EB /* NC3-Jacksix-iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NC3-Jacksix-iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D5E8932A68FA0400A6C9EB /* NC3_Jacksix_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_Jacksix_iPadUITests.swift; sourceTree = "<group>"; };
+		D9D5E8952A68FA0400A6C9EB /* NC3_Jacksix_iPadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_Jacksix_iPadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9D5E8A22A68FA1C00A6C9EB /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		D9D5E8A42A68FFB600A6C9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D9D5E8A52A6907A700A6C9EB /* DurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationView.swift; sourceTree = "<group>"; };
+		D9D5E8A72A694A7900A6C9EB /* PageNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageNavigator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9D5E8722A68FA0300A6C9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D5E8822A68FA0400A6C9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D5E88C2A68FA0400A6C9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9D5E86C2A68FA0300A6C9EB = {
+			isa = PBXGroup;
+			children = (
+				D9D5E8772A68FA0300A6C9EB /* NC3-Jacksix-iPad */,
+				D9D5E8882A68FA0400A6C9EB /* NC3-Jacksix-iPadTests */,
+				D9D5E8922A68FA0400A6C9EB /* NC3-Jacksix-iPadUITests */,
+				D9D5E8762A68FA0300A6C9EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D5E8762A68FA0300A6C9EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D5E8752A68FA0300A6C9EB /* NC3-Jacksix-iPad.app */,
+				D9D5E8852A68FA0400A6C9EB /* NC3-Jacksix-iPadTests.xctest */,
+				D9D5E88F2A68FA0400A6C9EB /* NC3-Jacksix-iPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9D5E8772A68FA0300A6C9EB /* NC3-Jacksix-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				D9D5E8A42A68FFB600A6C9EB /* Info.plist */,
+				D9D5E8782A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift */,
+				D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */,
+				D9D5E8A22A68FA1C00A6C9EB /* SelectionView.swift */,
+				D9D5E8A52A6907A700A6C9EB /* DurationView.swift */,
+				D9D5E8A72A694A7900A6C9EB /* PageNavigator.swift */,
+				D9D5E87C2A68FA0400A6C9EB /* Assets.xcassets */,
+				D9D5E87E2A68FA0400A6C9EB /* Preview Content */,
+			);
+			path = "NC3-Jacksix-iPad";
+			sourceTree = "<group>";
+		};
+		D9D5E87E2A68FA0400A6C9EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9D5E87F2A68FA0400A6C9EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9D5E8882A68FA0400A6C9EB /* NC3-Jacksix-iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9D5E8892A68FA0400A6C9EB /* NC3_Jacksix_iPadTests.swift */,
+			);
+			path = "NC3-Jacksix-iPadTests";
+			sourceTree = "<group>";
+		};
+		D9D5E8922A68FA0400A6C9EB /* NC3-Jacksix-iPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9D5E8932A68FA0400A6C9EB /* NC3_Jacksix_iPadUITests.swift */,
+				D9D5E8952A68FA0400A6C9EB /* NC3_Jacksix_iPadUITestsLaunchTests.swift */,
+			);
+			path = "NC3-Jacksix-iPadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9D5E8742A68FA0300A6C9EB /* NC3-Jacksix-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D5E8992A68FA0400A6C9EB /* Build configuration list for PBXNativeTarget "NC3-Jacksix-iPad" */;
+			buildPhases = (
+				D9D5E8712A68FA0300A6C9EB /* Sources */,
+				D9D5E8722A68FA0300A6C9EB /* Frameworks */,
+				D9D5E8732A68FA0300A6C9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NC3-Jacksix-iPad";
+			productName = "NC3-Jacksix-iPad";
+			productReference = D9D5E8752A68FA0300A6C9EB /* NC3-Jacksix-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9D5E8842A68FA0400A6C9EB /* NC3-Jacksix-iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D5E89C2A68FA0400A6C9EB /* Build configuration list for PBXNativeTarget "NC3-Jacksix-iPadTests" */;
+			buildPhases = (
+				D9D5E8812A68FA0400A6C9EB /* Sources */,
+				D9D5E8822A68FA0400A6C9EB /* Frameworks */,
+				D9D5E8832A68FA0400A6C9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D5E8872A68FA0400A6C9EB /* PBXTargetDependency */,
+			);
+			name = "NC3-Jacksix-iPadTests";
+			productName = "NC3-Jacksix-iPadTests";
+			productReference = D9D5E8852A68FA0400A6C9EB /* NC3-Jacksix-iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9D5E88E2A68FA0400A6C9EB /* NC3-Jacksix-iPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D5E89F2A68FA0400A6C9EB /* Build configuration list for PBXNativeTarget "NC3-Jacksix-iPadUITests" */;
+			buildPhases = (
+				D9D5E88B2A68FA0400A6C9EB /* Sources */,
+				D9D5E88C2A68FA0400A6C9EB /* Frameworks */,
+				D9D5E88D2A68FA0400A6C9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D5E8912A68FA0400A6C9EB /* PBXTargetDependency */,
+			);
+			name = "NC3-Jacksix-iPadUITests";
+			productName = "NC3-Jacksix-iPadUITests";
+			productReference = D9D5E88F2A68FA0400A6C9EB /* NC3-Jacksix-iPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9D5E86D2A68FA0300A6C9EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D9D5E8742A68FA0300A6C9EB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D9D5E8842A68FA0400A6C9EB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D9D5E8742A68FA0300A6C9EB;
+					};
+					D9D5E88E2A68FA0400A6C9EB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D9D5E8742A68FA0300A6C9EB;
+					};
+				};
+			};
+			buildConfigurationList = D9D5E8702A68FA0300A6C9EB /* Build configuration list for PBXProject "NC3-Jacksix-iPad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9D5E86C2A68FA0300A6C9EB;
+			productRefGroup = D9D5E8762A68FA0300A6C9EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D5E8742A68FA0300A6C9EB /* NC3-Jacksix-iPad */,
+				D9D5E8842A68FA0400A6C9EB /* NC3-Jacksix-iPadTests */,
+				D9D5E88E2A68FA0400A6C9EB /* NC3-Jacksix-iPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D5E8732A68FA0300A6C9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D5E8802A68FA0400A6C9EB /* Preview Assets.xcassets in Resources */,
+				D9D5E87D2A68FA0400A6C9EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D5E8832A68FA0400A6C9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D5E88D2A68FA0400A6C9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9D5E8712A68FA0300A6C9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D5E87B2A68FA0300A6C9EB /* ContentView.swift in Sources */,
+				D9D5E8792A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift in Sources */,
+				D9D5E8A62A6907A700A6C9EB /* DurationView.swift in Sources */,
+				D9D5E8A82A694A7900A6C9EB /* PageNavigator.swift in Sources */,
+				D9D5E8A32A68FA1C00A6C9EB /* SelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D5E8812A68FA0400A6C9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D5E88A2A68FA0400A6C9EB /* NC3_Jacksix_iPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D5E88B2A68FA0400A6C9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D5E8942A68FA0400A6C9EB /* NC3_Jacksix_iPadUITests.swift in Sources */,
+				D9D5E8962A68FA0400A6C9EB /* NC3_Jacksix_iPadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9D5E8872A68FA0400A6C9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D5E8742A68FA0300A6C9EB /* NC3-Jacksix-iPad */;
+			targetProxy = D9D5E8862A68FA0400A6C9EB /* PBXContainerItemProxy */;
+		};
+		D9D5E8912A68FA0400A6C9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D5E8742A68FA0300A6C9EB /* NC3-Jacksix-iPad */;
+			targetProxy = D9D5E8902A68FA0400A6C9EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9D5E8972A68FA0400A6C9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9D5E8982A68FA0400A6C9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9D5E89A2A68FA0400A6C9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC3-Jacksix-iPad/Preview Content\"";
+				DEVELOPMENT_TEAM = YWZWHPN8QL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC3-Jacksix-iPad/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.firstTest.NC3-Jacksix-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D5E89B2A68FA0400A6C9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC3-Jacksix-iPad/Preview Content\"";
+				DEVELOPMENT_TEAM = YWZWHPN8QL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC3-Jacksix-iPad/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.firstTest.NC3-Jacksix-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9D5E89D2A68FA0400A6C9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWZWHPN8QL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.firstTest.NC3-Jacksix-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NC3-Jacksix-iPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NC3-Jacksix-iPad";
+			};
+			name = Debug;
+		};
+		D9D5E89E2A68FA0400A6C9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWZWHPN8QL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.firstTest.NC3-Jacksix-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NC3-Jacksix-iPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NC3-Jacksix-iPad";
+			};
+			name = Release;
+		};
+		D9D5E8A02A68FA0400A6C9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWZWHPN8QL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.firstTest.NC3-Jacksix-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NC3-Jacksix-iPad";
+			};
+			name = Debug;
+		};
+		D9D5E8A12A68FA0400A6C9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWZWHPN8QL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.firstTest.NC3-Jacksix-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NC3-Jacksix-iPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9D5E8702A68FA0300A6C9EB /* Build configuration list for PBXProject "NC3-Jacksix-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D5E8972A68FA0400A6C9EB /* Debug */,
+				D9D5E8982A68FA0400A6C9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D5E8992A68FA0400A6C9EB /* Build configuration list for PBXNativeTarget "NC3-Jacksix-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D5E89A2A68FA0400A6C9EB /* Debug */,
+				D9D5E89B2A68FA0400A6C9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D5E89C2A68FA0400A6C9EB /* Build configuration list for PBXNativeTarget "NC3-Jacksix-iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D5E89D2A68FA0400A6C9EB /* Debug */,
+				D9D5E89E2A68FA0400A6C9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D5E89F2A68FA0400A6C9EB /* Build configuration list for PBXNativeTarget "NC3-Jacksix-iPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D5E8A02A68FA0400A6C9EB /* Debug */,
+				D9D5E8A12A68FA0400A6C9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9D5E86D2A68FA0300A6C9EB /* Project object */;
+}
