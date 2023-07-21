@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65274FCF2A6A24B600472BD7 /* Rent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65274FCE2A6A24B600472BD7 /* Rent.swift */; };
+		65274FD22A6A43A300472BD7 /* ScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65274FD12A6A43A300472BD7 /* ScanningView.swift */; };
+		65274FD52A6A46AB00472BD7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65274FD42A6A46AB00472BD7 /* ProgressView.swift */; };
+		65274FD72A6A5F4B00472BD7 /* ReturnProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65274FD62A6A5F4B00472BD7 /* ReturnProgressView.swift */; };
+		65274FD92A6A606000472BD7 /* ReturnCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65274FD82A6A606000472BD7 /* ReturnCameraView.swift */; };
+		65274FDB2A6AA0A800472BD7 /* ReturnSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65274FDA2A6AA0A800472BD7 /* ReturnSuccessView.swift */; };
+		65274FDD2A6AA8B200472BD7 /* RentSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65274FDC2A6AA8B200472BD7 /* RentSuccessView.swift */; };
+		6584AD6B2A698263009A82A4 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584AD6A2A698263009A82A4 /* NavigationManager.swift */; };
+		6584AD6F2A69882D009A82A4 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584AD6E2A69882D009A82A4 /* CustomColor.swift */; };
+		6584AD732A699544009A82A4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584AD722A699544009A82A4 /* ButtonView.swift */; };
+		6584AD752A699A8E009A82A4 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584AD742A699A8E009A82A4 /* SheetView.swift */; };
+		6584AD7B2A6A2330009A82A4 /* RentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584AD7A2A6A2330009A82A4 /* RentFormView.swift */; };
+		6584AD7D2A6A2337009A82A4 /* RentConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584AD7C2A6A2337009A82A4 /* RentConfirmationView.swift */; };
 		D9D5E8792A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8782A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift */; };
 		D9D5E87B2A68FA0300A6C9EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */; };
 		D9D5E87D2A68FA0400A6C9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D5E87C2A68FA0400A6C9EB /* Assets.xcassets */; };
@@ -14,9 +27,6 @@
 		D9D5E88A2A68FA0400A6C9EB /* NC3_Jacksix_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8892A68FA0400A6C9EB /* NC3_Jacksix_iPadTests.swift */; };
 		D9D5E8942A68FA0400A6C9EB /* NC3_Jacksix_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8932A68FA0400A6C9EB /* NC3_Jacksix_iPadUITests.swift */; };
 		D9D5E8962A68FA0400A6C9EB /* NC3_Jacksix_iPadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8952A68FA0400A6C9EB /* NC3_Jacksix_iPadUITestsLaunchTests.swift */; };
-		D9D5E8A32A68FA1C00A6C9EB /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8A22A68FA1C00A6C9EB /* SelectionView.swift */; };
-		D9D5E8A62A6907A700A6C9EB /* DurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8A52A6907A700A6C9EB /* DurationView.swift */; };
-		D9D5E8A82A694A7900A6C9EB /* PageNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8A72A694A7900A6C9EB /* PageNavigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65274FCE2A6A24B600472BD7 /* Rent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rent.swift; sourceTree = "<group>"; };
+		65274FD12A6A43A300472BD7 /* ScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningView.swift; sourceTree = "<group>"; };
+		65274FD42A6A46AB00472BD7 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		65274FD62A6A5F4B00472BD7 /* ReturnProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnProgressView.swift; sourceTree = "<group>"; };
+		65274FD82A6A606000472BD7 /* ReturnCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnCameraView.swift; sourceTree = "<group>"; };
+		65274FDA2A6AA0A800472BD7 /* ReturnSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnSuccessView.swift; sourceTree = "<group>"; };
+		65274FDC2A6AA8B200472BD7 /* RentSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentSuccessView.swift; sourceTree = "<group>"; };
+		6584AD6A2A698263009A82A4 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		6584AD6E2A69882D009A82A4 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		6584AD722A699544009A82A4 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		6584AD742A699A8E009A82A4 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		6584AD7A2A6A2330009A82A4 /* RentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentFormView.swift; sourceTree = "<group>"; };
+		6584AD7C2A6A2337009A82A4 /* RentConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentConfirmationView.swift; sourceTree = "<group>"; };
 		D9D5E8752A68FA0300A6C9EB /* NC3-Jacksix-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC3-Jacksix-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D5E8782A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_Jacksix_iPadApp.swift; sourceTree = "<group>"; };
 		D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,10 +70,7 @@
 		D9D5E88F2A68FA0400A6C9EB /* NC3-Jacksix-iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NC3-Jacksix-iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D5E8932A68FA0400A6C9EB /* NC3_Jacksix_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_Jacksix_iPadUITests.swift; sourceTree = "<group>"; };
 		D9D5E8952A68FA0400A6C9EB /* NC3_Jacksix_iPadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_Jacksix_iPadUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D9D5E8A22A68FA1C00A6C9EB /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 		D9D5E8A42A68FFB600A6C9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		D9D5E8A52A6907A700A6C9EB /* DurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationView.swift; sourceTree = "<group>"; };
-		D9D5E8A72A694A7900A6C9EB /* PageNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageNavigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65274FD02A6A24BD00472BD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65274FCE2A6A24B600472BD7 /* Rent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65274FD32A6A468E00472BD7 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				65274FD42A6A46AB00472BD7 /* ProgressView.swift */,
+				65274FD62A6A5F4B00472BD7 /* ReturnProgressView.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		6584AD6C2A698270009A82A4 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				6584AD6A2A698263009A82A4 /* NavigationManager.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		6584AD6D2A69827F009A82A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */,
+				6584AD722A699544009A82A4 /* ButtonView.swift */,
+				6584AD742A699A8E009A82A4 /* SheetView.swift */,
+				65274FD32A6A468E00472BD7 /* ProgressView */,
+				6584AD712A698B45009A82A4 /* ReturnViews */,
+				6584AD702A698B3D009A82A4 /* RentViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6584AD702A698B3D009A82A4 /* RentViews */ = {
+			isa = PBXGroup;
+			children = (
+				6584AD7A2A6A2330009A82A4 /* RentFormView.swift */,
+				6584AD7C2A6A2337009A82A4 /* RentConfirmationView.swift */,
+				65274FD12A6A43A300472BD7 /* ScanningView.swift */,
+				65274FDC2A6AA8B200472BD7 /* RentSuccessView.swift */,
+			);
+			path = RentViews;
+			sourceTree = "<group>";
+		};
+		6584AD712A698B45009A82A4 /* ReturnViews */ = {
+			isa = PBXGroup;
+			children = (
+				65274FD82A6A606000472BD7 /* ReturnCameraView.swift */,
+				65274FDA2A6AA0A800472BD7 /* ReturnSuccessView.swift */,
+			);
+			path = ReturnViews;
+			sourceTree = "<group>";
+		};
 		D9D5E86C2A68FA0300A6C9EB = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +179,13 @@
 		D9D5E8772A68FA0300A6C9EB /* NC3-Jacksix-iPad */ = {
 			isa = PBXGroup;
 			children = (
-				D9D5E8A42A68FFB600A6C9EB /* Info.plist */,
 				D9D5E8782A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift */,
-				D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */,
-				D9D5E8A22A68FA1C00A6C9EB /* SelectionView.swift */,
-				D9D5E8A52A6907A700A6C9EB /* DurationView.swift */,
-				D9D5E8A72A694A7900A6C9EB /* PageNavigator.swift */,
+				6584AD6E2A69882D009A82A4 /* CustomColor.swift */,
+				65274FD02A6A24BD00472BD7 /* Model */,
+				6584AD6D2A69827F009A82A4 /* Views */,
+				6584AD6C2A698270009A82A4 /* View Model */,
 				D9D5E87C2A68FA0400A6C9EB /* Assets.xcassets */,
+				D9D5E8A42A68FFB600A6C9EB /* Info.plist */,
 				D9D5E87E2A68FA0400A6C9EB /* Preview Content */,
 			);
 			path = "NC3-Jacksix-iPad";
@@ -269,10 +347,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D5E87B2A68FA0300A6C9EB /* ContentView.swift in Sources */,
+				6584AD752A699A8E009A82A4 /* SheetView.swift in Sources */,
 				D9D5E8792A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift in Sources */,
-				D9D5E8A62A6907A700A6C9EB /* DurationView.swift in Sources */,
-				D9D5E8A82A694A7900A6C9EB /* PageNavigator.swift in Sources */,
-				D9D5E8A32A68FA1C00A6C9EB /* SelectionView.swift in Sources */,
+				6584AD7D2A6A2337009A82A4 /* RentConfirmationView.swift in Sources */,
+				6584AD732A699544009A82A4 /* ButtonView.swift in Sources */,
+				65274FD22A6A43A300472BD7 /* ScanningView.swift in Sources */,
+				6584AD6F2A69882D009A82A4 /* CustomColor.swift in Sources */,
+				65274FD92A6A606000472BD7 /* ReturnCameraView.swift in Sources */,
+				65274FDD2A6AA8B200472BD7 /* RentSuccessView.swift in Sources */,
+				6584AD7B2A6A2330009A82A4 /* RentFormView.swift in Sources */,
+				65274FCF2A6A24B600472BD7 /* Rent.swift in Sources */,
+				65274FDB2A6AA0A800472BD7 /* ReturnSuccessView.swift in Sources */,
+				6584AD6B2A698263009A82A4 /* NavigationManager.swift in Sources */,
+				65274FD52A6A46AB00472BD7 /* ProgressView.swift in Sources */,
+				65274FD72A6A5F4B00472BD7 /* ReturnProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

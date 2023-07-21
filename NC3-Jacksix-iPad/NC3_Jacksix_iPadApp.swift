@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct NC3_Jacksix_iPadApp: App {
+    @StateObject var navigationManager = NavigationManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .accentColor(Color("okBlue"))
+                .environmentObject(navigationManager)
         }
     }
 }
