@@ -33,10 +33,14 @@ struct QRScannerView: UIViewControllerRepresentable {
     }
     
     func makeUIViewController(context: Context) -> ScannerViewController {
-        let scannerViewController = ScannerViewController()
-        scannerViewController.delegate = context.coordinator
-        return scannerViewController
-    }
+          let scannerViewController = ScannerViewController()
+          scannerViewController.delegate = context.coordinator
+          
+          // Set the desired orientation (landscape) here
+          scannerViewController.orientation = .landscapeRight
+          
+          return scannerViewController
+      }
     
     func updateUIViewController(_ uiViewController: ScannerViewController, context: Context) {}
 }

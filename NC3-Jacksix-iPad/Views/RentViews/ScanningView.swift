@@ -32,11 +32,21 @@ struct ScanningView: View {
             
             Spacer()
             
-            Button(action: {
-                navigationManager.backOnePage()
-            }, label: {
-                ButtonView(title: "Kembali")
-            })
+            HStack {
+                Spacer()
+                Button(action: {
+                    navigationManager.backOnePage()
+                }, label: {
+                    ButtonView(title: "Kembali")
+                })
+                Spacer()
+                Button(action: {
+                    navigationManager.popToRoot()
+                }, label: {
+                    ButtonView(title: "Selesai")
+                })
+                Spacer()
+            }
             .padding(.bottom, 50)
         }
         .navigationBarBackButtonHidden(true)

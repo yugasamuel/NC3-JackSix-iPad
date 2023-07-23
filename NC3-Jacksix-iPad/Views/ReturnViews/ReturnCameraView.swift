@@ -16,25 +16,33 @@ struct ReturnCameraView: View {
     @State private var isShowingScanner = true
     @State var scannedCode: String?
     var body: some View {
-        VStack(spacing: 0) {
-            Spacer()
-            Text("Arahkan kode QR ke pemindai:")
-                .font(.system(size: 45).bold())
-                .multilineTextAlignment(.center)
-                .frame(width: 850)
-                .padding(30)
-            
+        ZStack {
             if isShowingScanner {
-                QRScannerView(scannedCode: $scannedCode, isShowingScanner: $isShowingScanner)
-                    .frame(maxWidth: 500, maxHeight: 400)
+                ZStack {
+                    QRScannerView(scannedCode: $scannedCode, isShowingScanner: $isShowingScanner)
+                        .ignoresSafeArea()
+                    
+                    VStack {
+                        Text("Arahkan kode QR ke pemindai:")
+                            .font(.system(size: 45).bold())
+                            .multilineTextAlignment(.center)
+                            .frame(width: 850)
+                            .padding(30)
+                        Spacer()
+                        Button(action: {
+                            navigationManager.backOnePage()
+                        }, label: {
+                            ButtonView(title: "Kembali")
+                        })
+                        .padding(50)
+                    }
+                }
             } else {
+                
                 if let decryptedCode = decrypt() {
                     let code = decryptedCode
                     //                    dataProcess(scannedCode: scannedCode!)
-                    Text("Scanned QR Code: \(code)")
-                        .font(.headline)
-                        .padding()
-                    Text("iuehr")
+                    ReturnSuccessView()
                     
                 } else {
                     Text("Failed to decrypt QR code")
@@ -42,30 +50,6 @@ struct ReturnCameraView: View {
                         .padding()
                 }
             }
-            
-//            NavigationLink(value: SelectionState.returnSuccess) {
-//                Rectangle()
-//                    .stroke()
-//                    .frame(width: 500, height: 400)
-//                    .background(.secondary.opacity(0.3))
-//                    .padding()
-//            }
-//            
-            NavigationLink(value: SelectionState.returnSuccess) {
-                Rectangle()
-                    .stroke()
-                    .frame(width: 500, height: 40)
-                    .background(.secondary.opacity(0.3))
-                    .padding()
-            }
-            
-            Button(action: {
-                navigationManager.backOnePage()
-            }, label: {
-                ButtonView(title: "Kembali")
-            })
-            .padding(50)
-            Spacer()
         }
         .navigationBarBackButtonHidden(true)
     }

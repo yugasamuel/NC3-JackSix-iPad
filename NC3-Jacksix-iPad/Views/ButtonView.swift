@@ -16,7 +16,7 @@ struct ButtonView: View {
             .font(.largeTitle.bold())
             .padding(.vertical, 20)
             .frame(width: 210)
-            .background(title != "Lanjut" ? .white : CustomColor.brightYellow)
+            .background(title != "Kembali" ? CustomColor.brightYellow : .white)
             .cornerRadius(8)
             .shadow(radius: 3, x: 0, y: 3)
     }
