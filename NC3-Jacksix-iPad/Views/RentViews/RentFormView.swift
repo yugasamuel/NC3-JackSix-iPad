@@ -45,6 +45,7 @@ struct RentFormView: View {
             .padding()
             .frame(width: UIScreen.main.bounds.width - 400)
             .background(CustomColor.teal)
+            .cornerRadius(10, corners: [.topLeft, .topRight])
             
             HStack {
                 Text("Ukuran")
@@ -62,6 +63,7 @@ struct RentFormView: View {
             .padding()
             .frame(width: UIScreen.main.bounds.width - 400)
             .background(CustomColor.teal)
+            .cornerRadius(10, corners: [.bottomLeft, .bottomRight])
             
             Button(action: {
                 navigationManager.isInfoPresented = true

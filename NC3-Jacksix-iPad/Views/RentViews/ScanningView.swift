@@ -22,9 +22,12 @@ struct ScanningView: View {
                 .frame(width: 850)
                 .padding(30)
             
-            Rectangle()
-                .frame(width: 250, height: 250)
-                .padding()
+            NavigationLink(value: SelectionState.rentSuccess) {
+                Image("QR")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 300, height: 300)
+            }
             
             Spacer()
             

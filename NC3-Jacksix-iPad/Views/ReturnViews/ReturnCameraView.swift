@@ -18,9 +18,13 @@ struct ReturnCameraView: View {
                 .frame(width: 850)
                 .padding(30)
             
-            Rectangle()
-                .frame(width: 250, height: 250)
-                .padding()
+            NavigationLink(value: SelectionState.returnSuccess) {
+                Rectangle()
+                    .stroke()
+                    .frame(width: 500, height: 400)
+                    .background(.secondary.opacity(0.3))
+                    .padding()
+            }
             
             Button(action: {
                 navigationManager.backOnePage()

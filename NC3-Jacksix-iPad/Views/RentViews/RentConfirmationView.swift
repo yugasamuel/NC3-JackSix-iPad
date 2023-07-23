@@ -35,6 +35,7 @@ struct RentConfirmationView: View {
             .padding()
             .frame(width: UIScreen.main.bounds.width - 400)
             .background(CustomColor.teal)
+            .cornerRadius(10, corners: [.topLeft, .topRight])
             
             HStack {
                 Text("Ukuran")
@@ -63,6 +64,7 @@ struct RentConfirmationView: View {
             .padding()
             .frame(width: UIScreen.main.bounds.width - 400)
             .background(CustomColor.teal)
+            .cornerRadius(10, corners: [.bottomLeft, .bottomRight])
             
             HStack {
                 Text("Total Biaya")
@@ -77,6 +79,7 @@ struct RentConfirmationView: View {
             .padding()
             .frame(width: UIScreen.main.bounds.width - 400)
             .background(CustomColor.teal)
+            .cornerRadius(10)
             .padding(30)
             
             Spacer()
