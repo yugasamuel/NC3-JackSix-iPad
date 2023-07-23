@@ -21,6 +21,13 @@
 		6584AD7B2A6A2330009A82A4 /* RentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584AD7A2A6A2330009A82A4 /* RentFormView.swift */; };
 		6584AD7D2A6A2337009A82A4 /* RentConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6584AD7C2A6A2337009A82A4 /* RentConfirmationView.swift */; };
 		658D35DB2A6C346D00500ABC /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D35DA2A6C346D00500ABC /* ViewExtension.swift */; };
+		BA37EF442A6D574C00426C32 /* generateUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37EF432A6D574C00426C32 /* generateUUID.swift */; };
+		BA37EF472A6D5F5600426C32 /* array.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37EF462A6D5F5600426C32 /* array.swift */; };
+		BA37EF4A2A6D629D00426C32 /* cameraScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37EF492A6D629D00426C32 /* cameraScanView.swift */; };
+		BA37EF4C2A6D62B000426C32 /* cameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37EF4B2A6D62B000426C32 /* cameraView.swift */; };
+		BA37EF4E2A6D632F00426C32 /* scannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37EF4D2A6D632F00426C32 /* scannerController.swift */; };
+		BABDC5B42A6D4F93003880DE /* QRGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABDC5B32A6D4F93003880DE /* QRGeneratorView.swift */; };
+		BABDC5B62A6D4F9E003880DE /* encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABDC5B52A6D4F9E003880DE /* encryption.swift */; };
 		D9D5E8792A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E8782A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift */; };
 		D9D5E87B2A68FA0300A6C9EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */; };
 		D9D5E87D2A68FA0400A6C9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D5E87C2A68FA0400A6C9EB /* Assets.xcassets */; };
@@ -62,6 +69,13 @@
 		6584AD7A2A6A2330009A82A4 /* RentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentFormView.swift; sourceTree = "<group>"; };
 		6584AD7C2A6A2337009A82A4 /* RentConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentConfirmationView.swift; sourceTree = "<group>"; };
 		658D35DA2A6C346D00500ABC /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		BA37EF432A6D574C00426C32 /* generateUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateUUID.swift; sourceTree = "<group>"; };
+		BA37EF462A6D5F5600426C32 /* array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = array.swift; sourceTree = "<group>"; };
+		BA37EF492A6D629D00426C32 /* cameraScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraScanView.swift; sourceTree = "<group>"; };
+		BA37EF4B2A6D62B000426C32 /* cameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraView.swift; sourceTree = "<group>"; };
+		BA37EF4D2A6D632F00426C32 /* scannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scannerController.swift; sourceTree = "<group>"; };
+		BABDC5B32A6D4F93003880DE /* QRGeneratorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRGeneratorView.swift; sourceTree = "<group>"; };
+		BABDC5B52A6D4F9E003880DE /* encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = encryption.swift; sourceTree = "<group>"; };
 		D9D5E8752A68FA0300A6C9EB /* NC3-Jacksix-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC3-Jacksix-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D5E8782A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_Jacksix_iPadApp.swift; sourceTree = "<group>"; };
 		D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,7 +117,9 @@
 		65274FD02A6A24BD00472BD7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BA37EF452A6D5DDC00426C32 /* encryption */,
 				65274FCE2A6A24B600472BD7 /* Rent.swift */,
+				BA37EF482A6D5F5D00426C32 /* databaseDummy */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +144,9 @@
 		6584AD6D2A69827F009A82A4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA37EF4F2A6D634C00426C32 /* Scanner */,
+				BABDC5B32A6D4F93003880DE /* QRGeneratorView.swift */,
+				BA37EF432A6D574C00426C32 /* generateUUID.swift */,
 				D9D5E87A2A68FA0300A6C9EB /* ContentView.swift */,
 				6584AD722A699544009A82A4 /* ButtonView.swift */,
 				6584AD742A699A8E009A82A4 /* SheetView.swift */,
@@ -164,6 +183,32 @@
 				658D35DA2A6C346D00500ABC /* ViewExtension.swift */,
 			);
 			path = ViewExtension;
+			sourceTree = "<group>";
+		};
+		BA37EF452A6D5DDC00426C32 /* encryption */ = {
+			isa = PBXGroup;
+			children = (
+				BABDC5B52A6D4F9E003880DE /* encryption.swift */,
+			);
+			path = encryption;
+			sourceTree = "<group>";
+		};
+		BA37EF482A6D5F5D00426C32 /* databaseDummy */ = {
+			isa = PBXGroup;
+			children = (
+				BA37EF462A6D5F5600426C32 /* array.swift */,
+			);
+			path = databaseDummy;
+			sourceTree = "<group>";
+		};
+		BA37EF4F2A6D634C00426C32 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				BA37EF4D2A6D632F00426C32 /* scannerController.swift */,
+				BA37EF4B2A6D62B000426C32 /* cameraView.swift */,
+				BA37EF492A6D629D00426C32 /* cameraScanView.swift */,
+			);
+			path = Scanner;
 			sourceTree = "<group>";
 		};
 		D9D5E86C2A68FA0300A6C9EB = {
@@ -358,6 +403,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D5E87B2A68FA0300A6C9EB /* ContentView.swift in Sources */,
+				BA37EF4C2A6D62B000426C32 /* cameraView.swift in Sources */,
+				BA37EF4E2A6D632F00426C32 /* scannerController.swift in Sources */,
+				BA37EF472A6D5F5600426C32 /* array.swift in Sources */,
 				6584AD752A699A8E009A82A4 /* SheetView.swift in Sources */,
 				D9D5E8792A68FA0300A6C9EB /* NC3_Jacksix_iPadApp.swift in Sources */,
 				6584AD7D2A6A2337009A82A4 /* RentConfirmationView.swift in Sources */,
@@ -367,12 +415,16 @@
 				6584AD6F2A69882D009A82A4 /* CustomColor.swift in Sources */,
 				65274FD92A6A606000472BD7 /* ReturnCameraView.swift in Sources */,
 				65274FDD2A6AA8B200472BD7 /* RentSuccessView.swift in Sources */,
+				BA37EF4A2A6D629D00426C32 /* cameraScanView.swift in Sources */,
 				6584AD7B2A6A2330009A82A4 /* RentFormView.swift in Sources */,
 				65274FCF2A6A24B600472BD7 /* Rent.swift in Sources */,
 				65274FDB2A6AA0A800472BD7 /* ReturnSuccessView.swift in Sources */,
+				BA37EF442A6D574C00426C32 /* generateUUID.swift in Sources */,
 				6584AD6B2A698263009A82A4 /* NavigationManager.swift in Sources */,
 				65274FD52A6A46AB00472BD7 /* ProgressView.swift in Sources */,
 				65274FD72A6A5F4B00472BD7 /* ReturnProgressView.swift in Sources */,
+				BABDC5B62A6D4F9E003880DE /* encryption.swift in Sources */,
+				BABDC5B42A6D4F93003880DE /* QRGeneratorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NC3-Jacksix-iPad/Preview Content\"";
-				DEVELOPMENT_TEAM = YWZWHPN8QL;
+				DEVELOPMENT_TEAM = XB257LU5GX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "NC3-Jacksix-iPad/Info.plist";
@@ -540,6 +592,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -561,7 +614,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NC3-Jacksix-iPad/Preview Content\"";
-				DEVELOPMENT_TEAM = YWZWHPN8QL;
+				DEVELOPMENT_TEAM = XB257LU5GX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "NC3-Jacksix-iPad/Info.plist";
@@ -570,6 +623,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

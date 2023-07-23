@@ -23,11 +23,12 @@ struct ScanningView: View {
                 .padding(30)
             
             NavigationLink(value: SelectionState.rentSuccess) {
-                Image("QR")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 300, height: 300)
+//                Image("QR")
+//                    .resizable()
+//                    .scaledToFit()
+//                    .frame(width: 300, height: 300)
             }
+            QRGeneratorView()
             
             Spacer()
             
