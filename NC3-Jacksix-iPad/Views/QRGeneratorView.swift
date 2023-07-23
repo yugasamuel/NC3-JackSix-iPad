@@ -32,6 +32,7 @@ struct QRGeneratorView: View {
     func generateQRpic(dataQR: Data) {
         if let filter = CIFilter(name: "CIQRCodeGenerator") {
             filter.setValue(dataQR, forKey: "inputMessage")
+            filter.setValue("Q", forKey: "inputCorrectionLevel")
             if let ciImage = filter.outputImage {
                 let context = CIContext()
                 if let cgImage = context.createCGImage(ciImage, from: ciImage.extent) {
